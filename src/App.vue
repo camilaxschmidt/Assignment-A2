@@ -10,11 +10,6 @@ const mouseX = ref(0);
 const mouseY = ref(0);
 const isMenuShown = ref(false);
 
-// Function to show an alert
-function showAlert() {
-  alert('HEY');
-}
-
 // Function to handle click and display the menu
 function handleClick(event) {
   mouseX.value = event.clientX;
